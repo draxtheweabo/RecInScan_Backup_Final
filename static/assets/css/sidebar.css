@@ -1,0 +1,80 @@
+/* sidebar.css */
+
+/* General Body Styling */
+body.hold-transition.sidebar-mini.layout-fixed.sidebar-collapse {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+  }
+  
+  /* Main Sidebar Container */
+  .main-sidebar {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  /* Brand Logo */
+  .brand-link {
+    background-color: #23272b;
+    border-bottom: 1px solid #4f5d75;
+  }
+  
+  .brand-link .brand-image {
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  .brand-link .brand-text {
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 1.2em;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #343a40;
+  }
+  
+  .nav-sidebar .nav-item .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .nav-sidebar .nav-item .nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+  }
+  
+  .nav-sidebar .nav-item .nav-link.active {
+    background-color: #495057;
+    color: #ffffff;
+  }
+  
+  .nav-sidebar .nav-treeview .nav-item .nav-link {
+    color: #adb5bd;
+  }
+  
+  .nav-sidebar .nav-treeview .nav-item .nav-link:hover,
+  .nav-sidebar .nav-treeview .nav-item .nav-link.active {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  /* Icons */
+  .nav-icon {
+    color: #adb5bd;
+  }
+  
+  .nav-icon:hover {
+    color: #ffffff;
+  }
+  
+  /* Sidebar Menu Header */
+  .sidebar .nav-header {
+    color: #adb5bd;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0 1rem;
+  }
+  
